@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2727A67C-84AE-40E5-8571-037F8825EBF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication3.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication3</RootNamespace>
+    <AssemblyName>WindowsApplication3</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="appointment.Designer.vb">
+      <DependentUpon>appointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="appointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billing.Designer.vb">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blood.Designer.vb">
+      <DependentUpon>Blood.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Blood.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUs.Designer.vb">
+      <DependentUpon>CUs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CUs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctorin.Designer.vb">
+      <DependentUpon>Doctorin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doctorin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrSerach.Designer.vb">
+      <DependentUpon>DrSerach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DrSerach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instaff.Designer.vb">
+      <DependentUpon>Instaff.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labresult.Designer.vb">
+      <DependentUpon>Labresult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Labresult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labtest.Designer.vb">
+      <DependentUpon>Labtest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Labtest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="New Acc.Designer.vb">
+      <DependentUpon>New Acc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New Acc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patientin.Designer.vb">
+      <DependentUpon>Patientin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patientin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatientRoom.Designer.vb">
+      <DependentUpon>PatientRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resultin.Designer.vb">
+      <DependentUpon>resultin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="resultin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomModify.Designer.vb">
+      <DependentUpon>RoomModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RoomModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serachstaff.Designer.vb">
+      <DependentUpon>Serachstaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Serachstaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Slide.Designer.vb">
+      <DependentUpon>Slide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Slide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Startpage.Designer.vb">
+      <DependentUpon>Startpage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Startpage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewBlo.Designer.vb">
+      <DependentUpon>ViewBlo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBlo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewdr.Designer.vb">
+      <DependentUpon>Viewdr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewdr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewlab.Designer.vb">
+      <DependentUpon>Viewlab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewlab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewpa.Designer.vb">
+      <DependentUpon>Viewpa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Viewpa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewResults.Designer.vb">
+      <DependentUpon>ViewResults.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewResults.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewstff.Designer.vb">
+      <DependentUpon>viewstff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewstff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="appointment.resx">
+      <DependentUpon>appointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Billing.resx">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blood.resx">
+      <DependentUpon>Blood.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUs.resx">
+      <DependentUpon>CUs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctorin.resx">
+      <DependentUpon>Doctorin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrSerach.resx">
+      <DependentUpon>DrSerach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instaff.resx">
+      <DependentUpon>Instaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labresult.resx">
+      <DependentUpon>Labresult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labtest.resx">
+      <DependentUpon>Labtest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Acc.resx">
+      <DependentUpon>New Acc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patientin.resx">
+      <DependentUpon>Patientin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientRoom.resx">
+      <DependentUpon>PatientRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resultin.resx">
+      <DependentUpon>resultin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomModify.resx">
+      <DependentUpon>RoomModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serachstaff.resx">
+      <DependentUpon>Serachstaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Slide.resx">
+      <DependentUpon>Slide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startpage.resx">
+      <DependentUpon>Startpage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewBlo.resx">
+      <DependentUpon>ViewBlo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewdr.resx">
+      <DependentUpon>Viewdr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewlab.resx">
+      <DependentUpon>Viewlab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewpa.resx">
+      <DependentUpon>Viewpa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewResults.resx">
+      <DependentUpon>ViewResults.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewstff.resx">
+      <DependentUpon>viewstff.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
